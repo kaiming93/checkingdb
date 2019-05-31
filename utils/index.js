@@ -12,9 +12,12 @@ exports.createList = listData => {
   exports.createUser = userData => {
     return userData.map(user => {
       return {
-        name: user.name,
         object: user.object,
-        created_at: user.created_at, 
+        firstName: user.firstName,
+        lastName: user.lastName,
+        phone: user.phone,
+        email: user.email,
+        created_at: user.created_at,
       };
     });
   };

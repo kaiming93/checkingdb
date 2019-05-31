@@ -17,13 +17,13 @@ exports.getListId = (req, res, next) => {
     .catch(next);
 };
 
-exports.addList = (req, res, next) => {
-  List.create({name: req.body.name, checking: req.body.checking, checkout: req.body.checkout })
-  .then(list => {
-    res.status(201).send({ list });
-  })
-  .catch(next);
-}
+// exports.addList = (req, res, next) => {
+//   List.create({name: req.body.name, checking: req.body.checking, checkout: req.body.checkout })
+//   .then(list => {
+//     res.status(201).send({ list });
+//   })
+//   .catch(next);
+// }
 
 exports.deleteListId = (req, res, next) => {
     List.remove({ _id: req.params.list_id })

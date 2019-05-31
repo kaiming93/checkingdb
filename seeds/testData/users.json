@@ -1,17 +1,26 @@
 [
     {
-      "name": "Adam",
       "object": [],
+      "firstName": "Adam",
+      "lastName": "Cadwell",
+      "phone": "07468364983",
+      "email": "adam@email.com",
       "created_at": 1496518117223
     },
     { 
-      "name": "George",
       "object": [],
+      "firstName": "George",
+      "lastName": "Markovic",
+      "phone": "07468364984",
+      "email": "george@email.com",
       "created_at": 1496518117223
     },
     {
-      "name": "Kai",
       "object": [],
+      "firstName": "Kai",
+      "lastName": "Shen",
+      "phone": "07478364985",
+      "email": "kai@email.com",
       "created_at": 1501051330835
     }
 ]  

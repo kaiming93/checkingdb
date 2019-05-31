@@ -9,7 +9,7 @@ exports.getAllUser = (req, res, next) => {
 };
 
 exports.getUserId = (req, res, next) => {
-  List.findOne({ _id: req.params.user_id })
+  User.findOne({ _id: req.params.user_id })
     .then(users => {
       if (!users) throw { status: 404, message: "bad request" };
       res.send({ users });
@@ -18,7 +18,7 @@ exports.getUserId = (req, res, next) => {
 };
 
 exports.addUser = (req, res, next) => {
-  User.create({name: req.body.name, object: req.body.object })
+  User.create({object: req.body.object, firstName: req.body.firstName,lastName: req.body.lastName,  phone: req.body.phone, email: req.body.email })
   .then(user => {
     res.status(201).send({ user });
   })
