@@ -2,8 +2,6 @@ exports.createList = listData => {
     return listData.map(list => {
       return {
         name: list.name,
-        checking: list.checking,
-        checkout: list.checkout,
         created_at: list.created_at, 
       };
     });

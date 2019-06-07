@@ -6,14 +6,6 @@ const ListSchema = new Schema({
     type: String,
     required: true
   },
-  checking:{
-    type: String,
-    required: false
-  },
-  checkout:{
-    type: String,
-    required: false
-  },
   created_at: {
     type: Date,
     default: Date.now

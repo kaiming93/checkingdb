@@ -18,7 +18,7 @@ exports.getListId = (req, res, next) => {
 };
 
 exports.addList = (req, res, next) => {
-  List.create({name: req.body.name, checking: req.body.checking, checkout: req.body.checkout })
+  List.create({name: req.body.name })
   .then(list => {
     res.status(201).send({ list });
   })

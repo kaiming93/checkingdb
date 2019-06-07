@@ -1,32 +1,22 @@
 [
     {
       "name": "Iphone",
-      "checking": "",
-      "checkout": "",
       "created_at": 1496518117223
     },
     { 
       "name": "Samsung",
-      "checking": "",
-      "checkout": "",
       "created_at": 1496518117223
     },
     {
       "name": "Sony",
-      "checking": "",
-      "checkout": "",
       "created_at": 1501051330835
     },
     {
       "name": "Nokia",
-      "checking": "",
-      "checkout": "",
       "created_at": 1496518117223
     },
     { 
       "name": "Huawei",
-      "checking": "",
-      "checkout": "",
       "created_at": 1496518117223
     }
 ]  
